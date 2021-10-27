@@ -1,0 +1,111 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+body {
+  background-image: url('assets/images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Poppins;
+  color: white;
+}
+
+.cover-container {
+  max-width: 75em;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.vertical-center {
+    position: absolute;
+    top: 30%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40pt;
+    text-align: center;
+}
+
+.container-custom {
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.button-box {
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: bottom 0.5s;
+    bottom: 0px;
+}
+
+.act {
+    text-decoration: none;
+    font-size: 20pt;
+    color: black;
+}
+
+.button-box:hover .act{
+    background-image: linear-gradient(to bottom right, purple, blue);
+    color: white;
+}
+
+.button-box:hover{
+    background-image: linear-gradient(to bottom right, purple, blue);
+    color: white;
+    bottom: 10px;
+    position: relative;
+}
+
+.card{
+    text-align: left;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px black;
+}
